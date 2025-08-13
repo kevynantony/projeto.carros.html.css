@@ -1,0 +1,219 @@
+@charset    "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+
+@font-face {
+    font-family: 'racing';
+    src: url('fontes/slugs_racer/Slugs-Racer.ttf') format('opentype');
+    font-weight: normal;
+
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 80%;
+    padding: 2vw;
+}
+
+:root {
+    --cor0:#000000;
+    --cor01: #332B29;
+    --cor02:#5C3225;
+    --cor03:#8F391D;
+    --cor04:#DF3800;
+    --cor05: white;
+    --cor06: rgb(136, 133, 133);
+
+    --h1font: 'racing', cursive;
+    --padfont: 'delius', cursive;
+}
+
+body {
+    background-image: url('imagens/xadrez.png') ;
+    font-family: var(--padfont);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin:0;
+}
+
+header {
+    background-color: var(--cor04);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 25px;
+    margin: 15px 100px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+header > h1 {
+    color: var(--cor0);
+    font-family: var(--h1font);
+    font-size: 3em;
+    text-shadow: 5px 5px 20px rgb(97, 79, 79);
+    padding: 10px;
+}
+
+nav {
+    background-color: var(--cor04);
+    font-family: var(--padfont);
+    padding: 10px;
+    padding-top: 42px;
+    
+}
+
+nav > a {
+    color: var(--cor05);
+    padding: 0px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    text-align: center;
+
+    
+}
+
+nav > a:hover {
+    background-color: var(--cor06);
+    padding: 1px 1px 1px 1px;
+}
+
+main {
+    background-color: var(--cor06);
+    min-width: 250px;
+    max-width: 1151px;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin: -15px 100px 10px 100px;
+    
+    
+
+}
+
+main h1 {
+    color: var(--cor0);
+    font-family: var(--h1font);
+    font-size: 1.5em;
+    text-align: left;
+    padding: 10px;
+    text-indent: 30px;
+
+    
+}
+
+main h2 {
+    color: var(--cor05);
+    font-family: var(--padfont);
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 1.2em;
+    margin: 10px;
+
+    
+}
+
+main p {
+    color: var(--cor05);
+    font-family: var(--padfont);
+    text-align: justify;
+    padding: 15px;
+    text-indent: 30px;
+}
+
+div.video {
+    background-color: var(--cor04);
+    margin: 50px 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40%;
+    position:relative;
+    border-radius: 15px;
+
+    
+
+}
+    
+    
+
+div.video > iframe {
+    position:absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+article {
+    background-color: var(--cor04);
+    margin: 50px 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    position:relative;
+    border-radius: 15px;
+}
+
+ main img {
+    width: 100%;
+}
+
+aside {
+    background-color: var(--cor05);
+    color: var(--cor0);
+    margin: 25px 25px;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+
+aside > h1 {
+    font-family:var(--h1font);
+    color: var(--cor04);
+    text-shadow: 5px 5px 20px rgb(97, 79, 79);
+    font-size: 2em;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+aside > ul {
+    text-align: justify;
+    padding: 10px;
+    columns: 2;
+}
+
+aside > ul > li {
+    padding: 10px;
+}
+
+ul > a {
+    text-decoration: none;
+    color:var(--cor06);
+    transition-duration: 1s;
+    
+    
+    
+}
+
+ul > a:hover {
+    background-color: var(--cor04);
+    padding: 1px;
+
+}
+
+    
+
+
+
+
