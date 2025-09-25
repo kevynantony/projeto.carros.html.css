@@ -54,6 +54,9 @@ header {
     margin: auto;
     margin: 15px 100px;
     border-radius: 15px 15px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header > h1 {
@@ -96,6 +99,9 @@ main {
     padding-top: 15px;
     padding-bottom: 5px;
     margin: -15px 100px 10px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     
 
